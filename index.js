@@ -4,7 +4,7 @@ let employee = {
     streetAddress:"1246 Maldives"
 }
 
-function updateEmployeeWithKeyAndValue(emloyee, key, value){
+function updateEmployeeWithKeyAndValue(employee, key, value){
     return {
         ...employee,
         [key]: value
